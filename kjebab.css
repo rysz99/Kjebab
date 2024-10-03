@@ -1,0 +1,298 @@
+body 
+{
+   background-color: #444;
+   margin: 0;
+   text-align: center;
+   font-size: 20px;
+}
+
+#container
+{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#title
+{
+    
+    font-size: 30px;
+    padding: 30px;
+    background-color: #000;
+}
+
+h1
+{
+    margin: 0;
+    color: white;
+    width: 700px;
+    border-radius: 100%;
+    background-color: #c4302b;
+    padding: 150px 0 210px 0;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 150%;
+    font-size: 80px;
+    font-weight: 700;
+}    
+
+h3
+{
+    margin-top: 145px;
+}
+
+a.block
+{
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+}
+
+#menu
+{
+    background-color: darkmagenta;
+    color: white;
+    height: 50px;
+    margin-top: 2px;
+    opacity: 80%;
+}
+
+ol
+{
+    display: inline-block;
+    line-height: 100%;
+}
+
+ol > li
+{
+    float: left;
+    width: 333px;
+    font-size: 30px;
+    padding: 10px 0;
+    transition: all 1.4s ease-in-out;
+}
+
+ol > li:hover
+{
+    background-color: #d940ff;
+}
+
+ol > li > a,ul > li > a
+{
+    text-decoration: none;
+}
+
+ol > li > a
+{
+   color: black; 
+   font-weight: 900;
+}
+
+ol > li > a:hover
+{
+    color: black;
+}
+
+ol,ul
+{
+    margin: 0;
+    padding: 0;    
+    list-style-type: none;
+}
+
+ul
+{
+    display: none;
+    line-height: 130%;
+}
+
+ul > li
+{
+    color: white;
+    margin-top: 5px;
+    transition: all 1.2s ease-in-out;
+}
+
+ul > li:hover
+{
+    background-color: darkmagenta;
+    transform: rotateY(-360deg);
+    border-top: 5px solid #111;
+    border-bottom: 5px solid #111;
+}
+
+ul > li > a
+{
+    color: white;
+    width: 330px;
+    display: block;
+}
+
+ul > li > a:hover
+{
+    color: black;
+}
+
+ul > li:first-child
+{
+    margin-top: 10px;
+}
+
+ol > li:hover ul
+{
+    display: block;
+}
+
+#content
+{
+    margin-top: 200px;
+    font-size: 28px;
+}
+
+.article
+{
+    margin-top: 230px;
+    background-color: #888;
+    padding: 30px;
+}
+
+#content > .article:first-child
+{
+    margin-top: 240px;
+}
+
+#footer
+{
+    background-color: dodgerblue;
+    color: white;
+    padding: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 26px;
+    margin-top: 2px;
+}
+
+p
+{
+    text-align: justify;
+}
+
+.article > p
+{
+    line-height: 220%;
+}
+
+.sekcja
+{
+    margin-top: 80px;
+}
+
+.image
+{
+    float: left;
+    margin-left: 10px; 
+}
+
+.image img
+{
+    height: 331px;
+    width: 190px;
+    display: block;
+}
+
+img#inny
+{
+   height: 607.5px; 
+}
+
+img.long
+{
+    height: 384.3px;
+}
+
+.image.other
+{
+    width: 450px;
+    margin: 10px;
+    opacity: 20%;
+    transition: transform 2s ease-in-out;
+}
+
+.image.other:hover
+{
+    opacity: 100%;
+}
+
+.image.other img
+{
+    width: 450px;  
+    transition: transform 2s ease-in-out;   
+}
+
+.image.other:hover img
+{
+    transform: rotateX(360deg);
+    opacity: 100%;    
+}
+
+.image.other > a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.image.other:hover .overlay
+{
+    opacity: 85%;
+}
+
+.image > img
+{
+    display: block;
+}
+
+.header
+{
+    float: left;
+    width: 680px;
+    background-color: green;
+    padding: 30px;
+    line-height: 150%;
+}
+
+.header.brown
+{
+    background-color: sandybrown;
+}
+
+p.header2
+{
+    line-height: 150%;
+    background-color: lightblue;
+    padding: 30px;
+}
+
+.overlay
+{
+    background-color: orangered;
+    padding: 30px 0 30px 120px;       
+    font-weight: 700;
+    transition: all .8s ease-in-out;
+    position: relative;
+    bottom: 4px;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.overlay#more
+{
+    padding: 30px 0 30px 180px;
+}
+
+h3
+{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
